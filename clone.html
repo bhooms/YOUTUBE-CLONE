@@ -13,10 +13,24 @@
 
   <body>
     <div class="header">
-      <div class="left"></div>
-      <div class="middle">
-        <input class="search-bar" type="text" placeholder="Search">
+      <div class="left">
+        <img class="menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com"> 
+          <img class="logo" src="icons/youtube-logo.svg" >
+        </a>
       </div>
+      <div class="middle">
+        <form action="https://www.youtube.com/results" method="GET" target="_blank" style="display: flex;">
+          <input class="search-bar" type="text" name="search_query" placeholder="Search">
+          <button type="submit">
+            <img src="icons/search.svg">
+          </button>
+          <button>
+            <img class="voice" src="icons/voice-search-icon.svg">
+          </button>
+        </form>
+      </div>
+
       <div class="right"></div>
       
     </div>
