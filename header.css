@@ -21,16 +21,48 @@
 }
 
 .logo{
-  height: 24px;
+  height: 23px;
+  margin-top: 5px;
+}
+.logo:hover{
+  cursor: pointer;
 }
 
 .middle{
-  background-color: lightblue;
+  display: flex;
+  align-items: center;
   flex: 1;
   margin-left: 70px;
   margin-right: 40px;
   max-width: 600px;
-  
+}
+
+form {
+  display: flex;
+  flex: 1;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+}
+
+form button {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 6px 12px;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+form button img {
+  height: 20px;
 }
 
 .right{
