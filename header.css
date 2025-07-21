@@ -29,43 +29,73 @@
 }
 
 .middle{
-  display: flex;
-  align-items: center;
   flex: 1;
   margin-left: 70px;
   margin-right: 40px;
   max-width: 600px;
-}
-
-form {
   display: flex;
-  flex: 1;
+  align-items: center;
 }
 
 .search-bar {
   flex: 1;
-  padding: 8px 12px;
+  height:38px;
+  padding-left: 10px;
+  font-size:14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder{
+  font-family: Roboto, Arial;
   font-size: 14px;
-  border: 1px solid #ccc;
-  border-right: none;
-  border-radius: 2px 0 0 2px;
-  outline: none;
 }
 
-form button {
-  background-color: #f8f8f8;
+.search-button{
+  height: 41.5px;
+  width: 66px;
+  margin-top: 5px;
+  background-color: #f5efefc3;
+  border-width: 1px;
   border: 1px solid #ccc;
-  border-left: none;
-  padding: 6px 12px;
-  border-radius: 0 2px 2px 0;
-  cursor: pointer;
+  margin-left: -1px;
+  margin-right: 10px;
 }
 
-form button img {
-  height: 20px;
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+
+.voice-button{
+  height: 41.5px;
+  width: 40px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border:none;
+  background-color: #f6f3f3;
 }
 
 .right{
-  background-color: pink;
-  width: 200px;
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload,
+.apps{
+  height:24px;
+}
+
+.notification{
+  height: 24px;
+}
+
+.mychannel{
+  height: 32px;
+  border-radius: 16px;
 }
