@@ -53,10 +53,9 @@ YOUTUBE-CLONE/
 
 ---
 
-## 📌 About
-This project is made for **educational purposes only** and is **not affiliated** with YouTube or Google.  
+## Visit the yt clone here: http://127.0.0.1:5500/clone.html
 
 ---
 
-## ⭐ Support
-If you like this project, don’t forget to **star ⭐ the repo**!
+## 📌 About
+This project is made for **educational purposes only** and is **not affiliated** with YouTube or Google.  
