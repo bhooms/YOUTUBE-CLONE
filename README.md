@@ -53,5 +53,9 @@ YOUTUBE-CLONE/
 
 ---
 
+## Access youtube-clone here: https://bhooms.github.io/YOUTUBE-CLONE/clone.html
+
+---
+
 ## 📌 About
 This project is made for **educational purposes only** and is **not affiliated** with YouTube or Google.  
